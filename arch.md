@@ -1,3 +1,6 @@
+---
+title: Document Center
+---
 ## Preliminary Setup
 
 The first step in booting Arch was to change the boot mode from BIOS to UEFI by editing the `Arch.vmx` configuration file, then verify it by listing the UEFI configuration variables with ```ls /sys/firmware/efi/efivars```. If this returns data, the boot mode is successfully set to UEFI.
