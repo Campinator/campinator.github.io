@@ -33,3 +33,4 @@ Proper password security was slightly less of a priority for me, as this will on
 
 I then ran ```sudo docker-compose up -d```, which read the `docker-compose.yml` file and installed and instantiated the necessary docker packages. After they had finish installing, I navigated to `http://localhost:80`, where I found the WordPress admin login. I created an admin account with the username `tcs6365`, and was then able to log in successfully, as seen in the following screenshot:
 
+![WordPress Admin Panel](/images/docker.png)
